@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>امیر بت - بازی پوکر تمرینی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1 class="title">امیر بت</h1>
+    <div id="player-name-input">
+      <label>نام خود را وارد کنید:</label>
+      <input type="text" id="playerName" placeholder="مثلاً امیر" />
+      <button onclick="startGame()">شروع بازی</button>
+    </div>
+    <canvas id="poker-table" width="800" height="600"></canvas>
+    <div id="dialog-box"></div>
+    <audio id="card-sound" src="sounds/card.mp3"></audio>
+    <audio id="chip-sound" src="sounds/chip.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

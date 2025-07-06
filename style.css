@@ -1,0 +1,33 @@
+
+body {
+  font-family: Tahoma, sans-serif;
+  background: radial-gradient(circle at center, #14532d, #0f172a);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 28px;
+  color: gold;
+}
+
+#player-name-input {
+  margin: 20px;
+}
+
+#poker-table {
+  border: 2px solid #333;
+  background-color: #1e3a1e;
+  margin-top: 20px;
+}
+
+#dialog-box {
+  margin-top: 15px;
+  height: 30px;
+  font-size: 18px;
+  color: #ffcc00;
+}
